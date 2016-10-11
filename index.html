@@ -3,33 +3,59 @@
 <head>
   <meta charset="UTF-8">
   <title>NIVirLab</title>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+	<script type="text/javascript" src="http://amondit.github.io/jquery.scrollsteps.js/jquery.scrollsteps-full-min.js"></script>
 <link href="styles/bundle.css" rel="stylesheet"></head>
 <body>
-	<nav class="navbar navbar-default">
-		<div class="container">
-			<ul class="nav navbar-nav">
-				<li><a href="pages/science.html">Science</a></li>
-				<li><a href="pages/engineering.html">Engineering</a></li>
-				<li><a href="pages/programming.html">Programming</a></li>
-				<li><a href="pages/creative.html">Creative</a></li>
-				<li><a href="pages/social.html">Social Significance</a></li>
-				<li><a href="pages/lab.html">Virtual Lab</a></li>
-			</ul>
-		</div>
-	</nav>
-	<div class="container">
-		<div class="row">
-			<main class="col-md-7">
-				<div class="stand" id="stand"></div>	
-				<div class="info">
-					<div class="labs"></div>
-					<div class="data"></div>
-					<div class="table"></div>
-				</div>
-			</main>
+	
+	<!--
+	<div class="container-fluid">
+		<div class="stand col-md-7 col-xs-12" id="stand"></div>	
+		<div class="info col-md-5 col-xs-12">
+			<div class="labs">
+				<select id="selectLab" class="form-control">
+			        <option selected value="Lab_1">Лабораторная работа №1. Закон Ома.</option>
+			        <option selected value="Lab_2">Лабораторная работа №2. Параллельное соединение проводников.</option>
+      			</select>
+			</div>
+			<div class="data">
+				<button id="sendBtn" class="btn btn-primary">Send</button>
+			</div>
+			<div class="table"></div>
 		</div>
 	</div>
-	
+	-->
+	<div id="page1" class="fullScreenPage">
+		<nav class="navbar navbar-default">
+			<div class="container">
+				<ul class="nav navbar-nav">
+					<li><a href="pages/science.html">Science</a></li>
+					<li><a href="pages/engineering.html">Engineering</a></li>
+					<li><a href="pages/programming.html">Programming</a></li>
+					<li><a href="pages/creative.html">Creative</a></li>
+					<li><a href="pages/social.html">Social Significance</a></li>
+					<li><a href="pages/lab.html">Virtual Lab</a></li>
+					<li><a href="pages/about.html">About</a></li>
+				</ul>
+			</div>
+		</nav>
+		<h2>First step</h2>
+		<p class="downArrow">&darr;</p>
+	</div>
+	<div id="page2" class="fullScreenPage">
+		<p class="mainText">Some shit</p>
+	</div>
+	<div id="page3" class="fullScreenPage">
+		<p class="mainText">Third step</p>
+	</div>
+	<div id="page4" class="fullScreenPage">
+		<p class="mainText">Last</p>
+	</div>
+	<div id="page5" class="fullScreenPage">
+		<h1>Author</h1>
+		<p class="mainText">Copyright &copy; 2016.</p>
+	</div>
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 <script type="text/javascript" src="bundle.js"></script></body>
 </html>
